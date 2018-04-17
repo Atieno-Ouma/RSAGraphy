@@ -12,6 +12,7 @@ from PIL import Image
 
 def Encode(img, msg, lst):
 
+    global L
     # List used to store remainder value during encoding
     L = []
 
@@ -49,14 +50,14 @@ def Encode(img, msg, lst):
             encoded_img.putpixel((col, row), (asc, g, b))
             index += 1
 
-    return (encoded_img, L)
+    return encoded_img
 
 
 # Decode function of Steganography
 
-def Decode(img, L):
+def Decode(img):
 
-
+    global L
     width, height = img.size
     msg = ""
     lst = []
