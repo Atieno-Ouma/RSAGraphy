@@ -25,7 +25,7 @@ The steps below are the processes in generating public and private keys using RS
 1. Pick two large prime numbers p and q, p!=q;
 2. Calculate n = p*q;
 3. Calculate A (n) = (p-1) (q-1);
-4. Pick e, so that gcd (e, A (n) ) = 1,1&lte&lt(n);
+4. Pick e, so that gcd (e, A (n) ) = 1,1&lt;e&lt;(n);
 5. Calculate d, so that d*e mod A (n) = 1, i.e. d is the Multiplicative inverse of e in mod A (n);
 6. Get public key as Ku= {e, n}
 7. Get private key as Kr= {d, n}
