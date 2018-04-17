@@ -1,5 +1,6 @@
 """
 Copyright (C) 2018 Siddharth Chandra
+Email: siddharthchandragzb@gmail.com
 Licensed under MIT License
 
 You may use, distribute and modify this code under the terms of MIT License.
