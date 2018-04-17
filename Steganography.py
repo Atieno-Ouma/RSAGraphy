@@ -54,7 +54,7 @@ def Encode(img, msg, lst):
 
 # Decode function of Steganography
 
-def decode_image(img, L):
+def Decode(img, L):
 
 
     width, height = img.size
