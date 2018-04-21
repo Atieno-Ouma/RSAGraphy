@@ -1,6 +1,5 @@
 # RSAGraphy
 
-##### This project implements Image Steganography with RSA key Encryption. This provides 2 layer protection for the message to be send, first with RSA and second with R-color-channel Steganography encoding.
 
 ## Image Steganography
 
@@ -31,3 +30,24 @@ The steps below are the processes in generating public and private keys using RS
 7. Get private key as Kr= {d, n}
 
 
+## R-Color-Channel Encoding
+
+Image read using PIL (Python Image Library) and is checked if in RGB (Red, Green, Blue) format or not. If yes, then R-color-channel value is what i have updated to hide the message in the image. Following steps are considered while hiding the message:
+
+1. Starting from (0,0) location of the image and modifying its R-channel value with the length of the message to hide.
+2. Now from next pixel, encoded letter will replace the R-channel value for the corresponding pixel and move on to next pixel.
+3. The above process will continue until each letter gets hidden. If a rows all pixels gets modified then next rows pixel will be taken for the process and it continues till 255 character length.
+
+
+## System Architecture
+
+![System Architecure](system_arch.png)
+
+
+## Results
+
+![Steganography with RSA] (result_1.png)
+
+![Scatter plot of difference in R-Color-Channel value of Original and Encoded image] (diff_orig_enc.png)
+
+![Standard deviation of R-Color-Channel value between Original and Encoded image] (diff_orig_enc_shell.png)
