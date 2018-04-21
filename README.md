@@ -46,8 +46,8 @@ Image read using PIL (Python Image Library) and is checked if in RGB (Red, Green
 
 ## Results
 
-![Steganography with RSA] (result_1.png)
+![Steganography with RSA](result_1.png)
 
-![Scatter plot of difference in R-Color-Channel value of Original and Encoded image] (diff_orig_enc.png)
+![Scatter plot of difference in R-Color-Channel value of Original and Encoded image](diff_orig_enc.png)
 
-![Standard deviation of R-Color-Channel value between Original and Encoded image] (diff_orig_enc_shell.png)
+![Standard deviation of R-Color-Channel value between Original and Encoded image](diff_orig_enc_shell.png)
