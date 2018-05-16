@@ -41,19 +41,19 @@ Image read using PIL (Python Image Library) and is checked if in RGB (Red, Green
 
 ## System Architecture
 
-![System Architecure](system_arch.png)
+![System Architecure](images/system_arch.png)
 
 
 ## Results
 
-![Steganography with RSA](result_1.png)
+![Steganography with RSA](images/result_1.png)
 
 ##### Steganography with RSA
 
-![Scatter plot of difference in R-Color-Channel value of Original and Encoded image](diff_orig_enc.png)
+![Scatter plot of difference in R-Color-Channel value of Original and Encoded image](images/diff_orig_enc.png)
 
 ##### Scatter plot of difference in R-Color-Channel value of Original and Encoded image
 
-![Standard deviation of R-Color-Channel value between Original and Encoded image](diff_orig_enc_shell.png)
+![Standard deviation of R-Color-Channel value between Original and Encoded image](images/diff_orig_enc_shell.png)
 
 ##### Standard deviation of R-Color-Channel value between Original and Encoded image
